@@ -5,13 +5,12 @@
   "author": "Golo Roden <golo.roden@thenativeweb.io> (http://www.thenativeweb.io)",
   "main": "lib/tourism.js",
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "grunt": "0.4.1",
-    "grunt-contrib-jshint": "0.7.1",
-    "grunt-contrib-watch": "0.5.3",
-    "grunt-mocha-test": "0.7.0",
+    "grunt": "0.4.4",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-eslint": "0.4.0",
+    "grunt-mocha-test": "0.10.2",
     "node-assertthat": "0.0.21"
   },
   "scripts": {
