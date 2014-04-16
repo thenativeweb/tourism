@@ -13,9 +13,6 @@
     "grunt-mocha-test": "0.10.2",
     "node-assertthat": "0.0.21"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/thenativeweb/tourism.git"
