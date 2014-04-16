@@ -6,6 +6,10 @@
     "node": true
   },
 
+  "globals": {
+    "is": false,
+  },
+
   "rules": {
     // Possible errors
     "no-cond-assign": 2,
