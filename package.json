@@ -7,10 +7,10 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "grunt": "0.4.4",
+    "grunt": "0.4.5",
     "grunt-contrib-watch": "0.6.1",
-    "grunt-eslint": "0.4.0",
-    "grunt-mocha-test": "0.10.2",
+    "grunt-eslint": "0.5.0",
+    "grunt-mocha-test": "0.11.0",
     "node-assertthat": "0.0.21"
   },
   "repository": {
