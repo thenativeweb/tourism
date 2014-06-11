@@ -1,0 +1,31 @@
+{
+  "requireSpaceBeforeBlockStatements": true,
+  "requireSpacesInConditionalExpression": true,
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInNamedFunctionExpression": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "disallowPaddingNewlinesInBlocks": true,
+  "requireSpacesInsideObjectBrackets": "allButNested",
+  "requireSpacesInsideArrayBrackets": "allButNested",
+  "disallowSpacesInsideParentheses": true,
+  "disallowSpaceAfterObjectKeys": true,
+  "disallowMultipleLineBreaks": true,
+  "validateLineBreaks": "LF",
+  "validateIndentation": 2,
+  "disallowMixedSpacesAndTabs": true,
+  "disallowTrailingWhitespace": true,
+  "requireLineFeedAtFileEnd": true
+}
