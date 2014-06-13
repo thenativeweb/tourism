@@ -25,8 +25,10 @@ module.exports = tourism({
 });
 ```
 
+Please note that in the `package.json` file you only need to add tourism and `grunt` itself as a dependency. You do **not** have to add any plugins, tourism takes care of that automatically.
+
 ## Running the tests
 
-This module can be built using [Grunt](http://gruntjs.com/). Besides running the tests, Grunt also analyses the code using [ESLint](http://eslint.org/). To run Grunt, go to the folder where you have installed tourism and run `grunt`. You need to have [grunt-cli](https://github.com/gruntjs/grunt-cli) installed.
+This module can be built using [Grunt](http://gruntjs.com/). Besides running the tests, Grunt also analyses the code. To run Grunt, go to the folder where you have installed tourism and run `grunt`. You need to have [grunt-cli](https://github.com/gruntjs/grunt-cli) installed.
 
     $ grunt
