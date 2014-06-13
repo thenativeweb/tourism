@@ -6,7 +6,7 @@ tourism is a convenience wrapper for Grunt.
 
 At the moment, installation of this module must be made manually.
 
-*NOTE: Please note that you only need to add tourism and `grunt` itself as a dependency to the `package.json` file. You do not have to add any plugins, tourism brings everything it needs to run.*
+*NOTE: You only need to add tourism and `grunt` itself as dependencies to the `package.json` file. You do not have to add any plugins, tourism contains everything it needs to run internally.*
 
 ## Quick Start
 
