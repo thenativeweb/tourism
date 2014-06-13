@@ -6,6 +6,8 @@ tourism is a convenience wrapper for Grunt.
 
 At the moment, installation of this module must be made manually.
 
+Please note that in the `package.json` file you only need to add tourism and `grunt` itself as a dependency. You do **not** have to add any plugins, tourism takes care of that automatically.
+
 ## Quick Start
 
 First you need to create a file called `Gruntfile.js`. Then, instead of the usual content, use the following lines of code to enable code analysis and execution of unit tests.
@@ -24,8 +26,6 @@ module.exports = tourism({
   }
 });
 ```
-
-Please note that in the `package.json` file you only need to add tourism and `grunt` itself as a dependency. You do **not** have to add any plugins, tourism takes care of that automatically.
 
 ## Running the tests
 
