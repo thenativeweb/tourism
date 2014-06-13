@@ -54,7 +54,7 @@ If you want to create a minor respectively a major release, run one of the follo
     $ grunt release:minor
     $ grunt release:major
 
-## Running the tests
+## Running the build
 
 This module can be built using [Grunt](http://gruntjs.com/). Besides running the tests, this also analyses the code. To run Grunt, go to the folder where you have installed tourism and run `grunt`. You need to have [grunt-cli](https://github.com/gruntjs/grunt-cli) installed.
 
