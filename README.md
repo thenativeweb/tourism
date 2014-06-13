@@ -29,6 +29,6 @@ module.exports = tourism({
 
 ## Running the tests
 
-This module can be built using [Grunt](http://gruntjs.com/). Besides running the tests, Grunt also analyses the code. To run Grunt, go to the folder where you have installed tourism and run `grunt`. You need to have [grunt-cli](https://github.com/gruntjs/grunt-cli) installed.
+This module can be built using [Grunt](http://gruntjs.com/). Besides running the tests, this also analyses the code. To run Grunt, go to the folder where you have installed tourism and run `grunt`. You need to have [grunt-cli](https://github.com/gruntjs/grunt-cli) installed.
 
     $ grunt
