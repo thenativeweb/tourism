@@ -54,6 +54,48 @@ If you want to create a minor respectively a major release, run one of the follo
     $ grunt release:minor
     $ grunt release:major
 
+### Creating a build
+
+If you want to register a command-line call to create a build, specify the `build` option in the `Gruntfile.js` and provide a shell script.
+
+```javascript
+'use strict';
+
+var tourism = require('tourism');
+
+module.exports = tourism({
+  build: '...'
+});
+```
+
+Then call the following command.
+
+    $ grunt build
+
+### Starting, stopping and restarting the application
+
+If you want to start or stop your application using a command-line call, specify the `start` and / or `stop` option and provide a shell script in the `Gruntfile.js`.
+
+```javascript
+'use strict';
+
+var tourism = require('tourism');
+
+module.exports = tourism({
+  start: '...',
+  stop: '...'
+});
+```
+
+Then call one of the following commands.
+
+    $ grunt start
+    $ grunt stop
+
+Basically, a restart is the same as stopping and starting again, hence you can do a restart using the following command.
+
+    $ grunt restart
+
 ## Running the build
 
 This module can be built using [Grunt](http://gruntjs.com/). Besides running the tests, this also analyses the code. To run Grunt, go to the folder where you have installed tourism and run `grunt`. You need to have [grunt-cli](https://github.com/gruntjs/grunt-cli) installed.
