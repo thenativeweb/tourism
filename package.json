@@ -18,6 +18,7 @@
     "grunt-eslint": "0.5.0",
     "grunt-jscs": "0.6.1",
     "grunt-mocha-cli": "1.9.0",
+    "grunt-nsp-package": "0.0.5",
     "grunt-release": "0.7.0",
     "grunt-shell": "0.7.0"
   },
