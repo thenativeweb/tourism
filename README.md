@@ -33,7 +33,7 @@ To use tourism with the default tasks, run the following command.
 
     $ grunt
 
-The `default` task will run the static code analysis, validate whitespace, execute unit tests and check for outdated and vulnerable packages.
+The `default` task will run the static code analysis, validate whitespace, execute unit tests and check for outdated packages.
 
 ### Running the default task partially
 
