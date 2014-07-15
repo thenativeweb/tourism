@@ -1,6 +1,6 @@
 {
   "name": "tourism",
-  "version": "git",
+  "version": "0.5.0",
   "description": "tourism is a convenience wrapper for Grunt.",
   "contributors": [
     {
