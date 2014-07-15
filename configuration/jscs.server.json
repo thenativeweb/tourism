@@ -27,7 +27,6 @@
   "requireSpacesInsideArrayBrackets": "allButNested",
   "disallowSpacesInsideParentheses": true,
   "disallowQuotedKeysInObjects": true,
-  "disallowDanglingUnderscores": false,
   "disallowSpaceAfterObjectKeys": true,
   "requireCommaBeforeLineBreak": true,
   "requireOperatorBeforeLineBreak": [ "?", "=", "+", "-", "/", "*", "==" ,"=== ","!=" ,"!== ",">", ">=" ,"<", "<=" ],
