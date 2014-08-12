@@ -15,12 +15,13 @@
   "main": "lib/tourism.js",
   "dependencies": {
     "grunt-contrib-watch": "0.6.1",
-    "grunt-dev-update": "0.5.10",
+    "grunt-dev-update": "0.6.0",
     "grunt-eslint": "0.6.0",
-    "grunt-jscs": "0.6.1",
+    "grunt-jscs": "0.6.2",
     "grunt-mocha-cli": "1.9.0",
     "grunt-release": "git+https://github.com/plossys/grunt-release.git",
     "grunt-shell": "0.7.0",
+    "lodash": "2.4.1",
     "npm-check-updates": "1.2.1"
   },
   "devDependencies": {
