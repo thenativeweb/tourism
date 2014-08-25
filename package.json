@@ -19,6 +19,7 @@
     "grunt-eslint": "0.6.0",
     "grunt-jscs": "0.6.2",
     "grunt-mocha-cli": "1.9.0",
+    "grunt-mocha-istanbul": "2.0.0",
     "grunt-release": "git+https://github.com/plossys/grunt-release.git",
     "grunt-shell": "0.7.0",
     "lodash": "2.4.1",
