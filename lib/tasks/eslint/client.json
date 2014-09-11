@@ -32,6 +32,7 @@
     "no-negated-in-lhs": 2,
     "no-obj-calls": 2,
     "no-regex-spaces": 2,
+    "no-reserved-keys": 0,
     "no-sparse-arrays": 2,
     "no-unreachable": 2,
     "use-isnan": 2,
@@ -55,6 +56,7 @@
     "no-eq-null": 2,
     "no-eval": 2,
     "no-extend-native": 2,
+    "no-extra-bind": 2,
     "no-fallthrough": 2,
     "no-floating-decimal": 2,
     "no-implied-eval": 2,
@@ -76,14 +78,16 @@
     "no-self-compare": 2,
     "no-sequences": 2,
     "no-unused-expressions": 2,
+    "no-void": 2,
     "no-warning-comments": 2,
     "no-with": 2,
     "radix": 2,
+    "vars-on-top": 2,
     "wrap-iife": 2,
     "yoda": [ 2, "never" ],
 
     // Strict mode
-    "no-global-strict": 0,
+    "global-strict": [ 2, "always" ],
     "no-extra-strict": 2,
     "strict": 2,
 
@@ -100,7 +104,7 @@
     "no-use-before-define": 2,
 
     // Node.js
-    "handle-callback-err": 2,
+    "handle-callback-err": [ 2, "err" ],
     "no-mixed-requires": [ 2, true ],
     "no-new-require": 2,
     "no-path-concat": 2,
@@ -109,7 +113,7 @@
     "no-sync": 0,
 
     // Stylistics issues
-    "brace-style": [ 2, "1tbs" ],
+    "brace-style": [ 2, "1tbs", { "allowSingleLine": false } ],
     "camelcase": 2,
     "consistent-this": [ 2, "that" ],
     "eol-last": 2,
@@ -134,6 +138,7 @@
     "sort-vars": 2,
     "space-after-keywords": [ 2, "always" ],
     "space-in-brackets": [ 2, "always" ],
+    "space-in-parens": [ 2, "never" ],
     "space-infix-ops": 2,
     "space-return-throw-case": 2,
     "space-unary-word-ops": 2,
