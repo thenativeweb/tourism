@@ -137,7 +137,7 @@
     "semi": [ 2, "always" ],
     "sort-vars": 2,
     "space-after-keywords": [ 2, "always" ],
-    "space-in-brackets": [ 2, "always" ],
+    "space-in-brackets": [ 2, "always", { "singleValue": false, "objectsInArrays": true, "arraysInArrays": true } ],
     "space-in-parens": [ 2, "never" ],
     "space-infix-ops": 2,
     "space-return-throw-case": 2,
