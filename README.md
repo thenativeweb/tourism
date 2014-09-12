@@ -64,7 +64,7 @@ If you want to create a minor respectively a major release, run one of the follo
 
 ### Creating a build
 
-If you want to register a command-line call to create a build, specify the `build` option in the `Gruntfile.js` and provide a shell script.
+If you want to build your application or clean a previous build using a command-line call, specify the `build` and / or `clean` option and provide a shell script in the `Gruntfile.js`.
 
 ```javascript
 'use strict';
@@ -72,13 +72,19 @@ If you want to register a command-line call to create a build, specify the `buil
 var tourism = require('tourism');
 
 module.exports = tourism({
-  build: '...'
+  build: '...',
+  clean: '...'
 });
 ```
 
-Then call the following command.
+Then call one of the following commands.
 
     $ grunt build
+    $ grunt clean
+
+Basically, a rebuild is the same as cleaning and building again, hence you can do a rebuild using the following command.
+
+    $ grunt rebuild
 
 ### Starting, stopping and restarting the application
 
