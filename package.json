@@ -15,7 +15,7 @@
   "main": "lib/tourism.js",
   "dependencies": {
     "grunt-contrib-watch": "0.6.1",
-    "grunt-dev-update": "0.7.1",
+    "grunt-dev-update": "0.7.2",
     "grunt-eslint": "1.1.0",
     "grunt-jscs": "0.7.1",
     "grunt-mocha-cli": "1.10.0",
