@@ -15,17 +15,11 @@
     "beforeOpeningRoundBrace": true,
     "beforeOpeningCurlyBrace": true
   },
-  "disallowPaddingNewlinesInBlocks": true,
-  "disallowQuotedKeysInObjects": true,
-  "disallowSpaceAfterObjectKeys": true,
-  "requireCommaBeforeLineBreak": true,
   "requireOperatorBeforeLineBreak": [ "?", "=", "+", "-", "/", "*", "==" ,"=== ","!=" ,"!== ",">", ">=" ,"<", "<=" ],
   "disallowSpaceAfterPrefixUnaryOperators": [ "++", "--", "+", "-", "~", "!" ],
   "disallowSpaceBeforePostfixUnaryOperators": [ "++", "--" ],
   "disallowSpaceBeforeBinaryOperators": [ "," ],
   "requireSpaceAfterBinaryOperators": [ "," ],
-  "disallowMultipleLineBreaks": true,
   "validateIndentation": 2,
-  "disallowMixedSpacesAndTabs": true,
   "disallowKeywordsOnNewLine": [ "else" ]
 }
