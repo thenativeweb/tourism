@@ -16,7 +16,7 @@
   "dependencies": {
     "grunt-contrib-watch": "0.6.1",
     "grunt-dev-update": "0.9.0",
-    "grunt-eslint": "1.1.0",
+    "grunt-eslint": "1.2.0",
     "grunt-jscs": "0.8.1",
     "grunt-mocha-cli": "1.10.0",
     "grunt-release": "0.7.0",
