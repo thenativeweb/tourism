@@ -1,4 +1,8 @@
 {
+  "plugins": [
+    "nodeca"
+  ],
+
   "env": {
     "amd": false,
     "browser": false,
@@ -161,6 +165,9 @@
     "max-params": [ 0, 3 ],
     "max-statements": [ 0, 10 ],
     "no-bitwise": 0,
-    "no-plusplus": 0
+    "no-plusplus": 0,
+
+    // Plugins
+    "nodeca/indent": [ 2, "spaces", 2 ]
   }
 }

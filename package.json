@@ -14,6 +14,7 @@
   ],
   "main": "lib/tourism.js",
   "dependencies": {
+    "eslint-plugin-nodeca": "1.0.3",
     "grunt-contrib-watch": "0.6.1",
     "grunt-dev-update": "1.0.0",
     "grunt-eslint": "2.0.0",
