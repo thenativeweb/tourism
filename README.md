@@ -78,7 +78,7 @@ module.exports = tourism({
 Please note that there are some special cases where commands get registered automatically for you:
 
 - If you do not register a `start` command, `node app.js` is registered.
-- If you do not register an `install` command, `rm -rf node_modules && npm install` is registered.
+- If you do not register an `update` command, `rm -rf node_modules && npm install` is registered.
 - If you register a `start` and a `stop` command, but no `restart` command, `stop && start` is registered.
 - If you register a `build` and a `clean` command, but no `rebuild` command, `clean && build` is registered.
 
