@@ -62,9 +62,9 @@ If you want to create a minor respectively a major release, run one of the follo
     $ grunt release:minor
     $ grunt release:major
 
-### Registering shell commands
+### Using shell tasks
 
-If you want to use shell commands to control various aspects of your application, use a `shell` object inside of your `Gruntfile.js`.
+Additionally to the previous tasks most often you need a number of shell commands, e.g. to start an application or to install dependencies. For that you can register named commands using the `shell` object.
 
 ```javascript
 module.exports = tourism({
@@ -75,9 +75,12 @@ module.exports = tourism({
 });
 ```
 
-If you specify a `start` as well as a `stop` command, tourism automatically creates a `restart` command for you.
+Please note that there are some special cases where commands get registered automatically for you:
 
-Analogously, if you specify a `build` as well as a `clean` command, tourism automatically creates a `rebuild` command for you.
+- If you do not register a `start` command, `node app.js` is registered.
+- If you do not register an `install` command, `rm -rf node_modules && npm install` is registered.
+- If you register a `start` and a `stop` command, but no `restart` command, `stop && start` is registered.
+- If you register a `build` and a `clean` command, but no `rebuild` command, `clean && build` is registered.
 
 ## Running the build
 
