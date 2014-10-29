@@ -62,53 +62,22 @@ If you want to create a minor respectively a major release, run one of the follo
     $ grunt release:minor
     $ grunt release:major
 
-### Creating a build
+### Registering shell commands
 
-If you want to build your application or clean a previous build using a command-line call, specify the `build` and / or `clean` option and provide a shell script in the `Gruntfile.js`.
+If you want to use shell commands to control various aspects of your application, use a `shell` object inside of your `Gruntfile.js`.
 
 ```javascript
-'use strict';
-
-var tourism = require('tourism');
-
 module.exports = tourism({
-  build: '...',
-  clean: '...'
+  // ...
+  shell: {
+    start: 'echo "Hello world!"'
+  }
 });
 ```
 
-Then call one of the following commands.
+If you specify a `start` as well as a `stop` command, tourism automatically creates a `restart` command for you.
 
-    $ grunt build
-    $ grunt clean
-
-Basically, a rebuild is the same as cleaning and building again, hence you can do a rebuild using the following command.
-
-    $ grunt rebuild
-
-### Starting, stopping and restarting the application
-
-If you want to start or stop your application using a command-line call, specify the `start` and / or `stop` option and provide a shell script in the `Gruntfile.js`.
-
-```javascript
-'use strict';
-
-var tourism = require('tourism');
-
-module.exports = tourism({
-  start: '...',
-  stop: '...'
-});
-```
-
-Then call one of the following commands.
-
-    $ grunt start
-    $ grunt stop
-
-Basically, a restart is the same as stopping and starting again, hence you can do a restart using the following command.
-
-    $ grunt restart
+Analogously, if you specify a `build` as well as a `clean` command, tourism automatically creates a `rebuild` command for you.
 
 ## Running the build
 
