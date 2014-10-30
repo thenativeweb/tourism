@@ -53,14 +53,14 @@ To use the watch mode, run the following command.
 
 To create a new release, run the following command.
 
-    $ grunt release
+    $ grunt publish
 
 This will upgrade the version number in the `package.json` file, create a Git tag, create a `.zip` file containing the release, commit and finally push everything to the appropriate GitHub repository.
 
 If you want to create a minor respectively a major release, run one of the following commands instead.
 
-    $ grunt release:minor
-    $ grunt release:major
+    $ grunt publish:minor
+    $ grunt publish:major
 
 ### Using shell tasks
 
@@ -71,6 +71,19 @@ module.exports = tourism({
   // ...
   shell: {
     start: 'echo "Hello world!"'
+  }
+});
+```
+
+If you need to run a parametrized shell task, provide a function instead of a string.
+
+```javascript
+module.exports = tourism({
+  // ...
+  shell: {
+    start: function (message) {
+      return 'echo "' + message + '"';
+    }
   }
 });
 ```
