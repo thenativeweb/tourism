@@ -62,6 +62,8 @@ If you want to create a minor respectively a major release, run one of the follo
     $ grunt publish:minor
     $ grunt publish:major
 
+If, for whatever reason, you need to skip code analysis and test execution before publishing, use `grunt release` instead of `grunt publish`.
+
 ### Using shell tasks
 
 Additionally to the previous tasks most often you need a number of shell commands, e.g. to start an application or to install dependencies. For that you can register named commands using the `shell` object.
