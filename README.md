@@ -88,10 +88,19 @@ module.exports = tourism({
 });
 ```
 
-Please note that there are some special cases where commands get registered automatically for you:
+#### Using built-in shell commands
 
-- If you do not register a `start` command, `node app.js` is registered.
-- If you do not register an `update` command, `rm -rf node_modules && npm install` is registered.
+Unless you overwrite them by your own version, tourism comes with a number of built-in shell commands. To start your Node.js application using `node app.js` run the following command.
+
+    $ grunt start
+
+To update your dependencies you can use the `update` task. If you do not specify a module to update, all modules will be updated. Otherwise, only the specified one will be updated.
+
+    $ grunt update
+    $ grunt update:lodash
+
+Additionally, there are two commands that get registered depending on whether other commands have been registered.
+
 - If you register a `start` and a `stop` command, but no `restart` command, `stop && start` is registered.
 - If you register a `build` and a `clean` command, but no `rebuild` command, `clean && build` is registered.
 
