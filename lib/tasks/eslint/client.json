@@ -1,4 +1,8 @@
 {
+  "plugins": [
+    "nodeca"
+  ],
+
   "env": {
     "amd": false,
     "browser": true,
@@ -130,7 +134,7 @@
     "new-parens": 2,
     "no-array-constructor": 2,
     "no-lonely-if": 2,
-    "no-mixed-spaces-and-tabs": [ 2, false ],
+    "no-mixed-spaces-and-tabs": [ 2 ],
     "no-multiple-empty-lines": [ 2, { "max": 1 } ],
     "no-nested-ternary": 2,
     "no-new-object": 2,
@@ -162,6 +166,9 @@
     "max-params": [ 0, 3 ],
     "max-statements": [ 0, 10 ],
     "no-bitwise": 0,
-    "no-plusplus": 0
+    "no-plusplus": 0,
+
+    // Plugins
+    "nodeca/indent": [ 2, "spaces", 2 ]
   }
 }
