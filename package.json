@@ -16,9 +16,9 @@
   "dependencies": {
     "eslint-plugin-nodeca": "1.0.3",
     "grunt-contrib-watch": "0.6.1",
-    "grunt-dev-update": "1.0.0",
-    "grunt-eslint": "2.0.0",
-    "grunt-mocha-cli": "1.10.0",
+    "grunt-dev-update": "1.0.1",
+    "grunt-eslint": "2.1.0",
+    "grunt-mocha-cli": "1.11.0",
     "grunt-release": "0.7.0",
     "grunt-shell": "1.1.1",
     "lodash": "2.4.1"
