@@ -39,7 +39,7 @@ The `default` task will run the static code analysis, validate whitespace, execu
 
 To calculate the test coverage run the following command.
 
-    $ grunt cov
+    $ grunt report
 
 The command stores the results in the `coverage` directory. Additionally, it opens a graphical overview within your web browser. If you only want to calculate the results without actually showing them, run the following command alternatively.
 
