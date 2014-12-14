@@ -35,6 +35,14 @@ To use tourism with the default tasks, run the following command.
 
 The `default` task will run the static code analysis, validate whitespace, execute unit tests and check for outdated packages.
 
+### Calculating test coverage
+
+To calculate the test coverage run the following command.
+
+    $ grunt coverage
+
+Then, open the file `index.html` from the newly created directory `coverage`.
+
 ### Running the default task partially
 
 If you only want to run the default task partially, there are a number of commands you may use:
