@@ -16,15 +16,15 @@
   "dependencies": {
     "eslint-plugin-nodeca": "1.0.3",
     "grunt-contrib-watch": "0.6.1",
-    "grunt-dev-update": "1.0.1",
-    "grunt-eslint": "2.1.0",
+    "grunt-dev-update": "1.0.2",
+    "grunt-eslint": "3.0.0",
     "grunt-mocha-cli": "1.11.0",
     "grunt-mocha-istanbul": "2.2.0",
     "grunt-release": "0.9.0",
     "grunt-shell": "1.1.1",
     "istanbul": "0.3.5",
     "lodash": "2.4.1",
-    "mocha": "2.0.1"
+    "mocha": "2.1.0"
   },
   "devDependencies": {
     "grunt": "0.4.5",
