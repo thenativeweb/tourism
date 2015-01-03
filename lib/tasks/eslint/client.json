@@ -16,7 +16,6 @@
   },
 
   "rules": {
-    // Possible errors
     "no-comma-dangle": 2,
     "no-cond-assign": [ 2, "always" ],
     "no-console": 2,
@@ -44,7 +43,6 @@
     "valid-jsdoc": 0,
     "valid-typeof": 2,
 
-    // Best practices
     "block-scoped-var": 2,
     "complexity": [ 0, 11 ],
     "consistent-return": 2,
@@ -93,12 +91,10 @@
     "wrap-iife": [ 2, "inside" ],
     "yoda": [ 2, "never" ],
 
-    // Strict mode
     "global-strict": [ 2, "always" ],
     "no-extra-strict": 2,
     "strict": 2,
 
-    // Variables
     "no-catch-shadow": 2,
     "no-delete-var": 2,
     "no-label-var": 2,
@@ -110,7 +106,6 @@
     "no-unused-vars": [ 2, { "vars": "all", "args": "after-used" } ],
     "no-use-before-define": 2,
 
-    // Node.js
     "handle-callback-err": [ 2, "err" ],
     "no-mixed-requires": [ 2, true ],
     "no-new-require": 2,
@@ -119,7 +114,6 @@
     "no-restricted-modules": 0,
     "no-sync": 0,
 
-    // Stylistics issues
     "brace-style": [ 2, "1tbs", { "allowSingleLine": false } ],
     "camelcase": 2,
     "comma-spacing": [ 2, { "before": false, "after": true } ],
@@ -163,7 +157,6 @@
     "spaced-line-comment": [ 2, "always" ],
     "wrap-regex": 0,
 
-    // Legacy
     "max-depth": [ 0, 4 ],
     "max-len": [ 0, 80, 4 ],
     "max-params": [ 0, 3 ],
@@ -171,7 +164,6 @@
     "no-bitwise": 0,
     "no-plusplus": 0,
 
-    // Plugins
     "nodeca/indent": [ 2, "spaces", 2 ]
   }
 }
