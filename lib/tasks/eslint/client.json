@@ -6,6 +6,7 @@
   "env": {
     "amd": false,
     "browser": true,
+    "jasmine": false,
     "mocha": true,
     "node": true
   },
@@ -13,6 +14,21 @@
   "globals": {
     "angular": false,
     "is": false
+  },
+
+  "ecmaFeatures": {
+    "binaryLiterals": true,
+    "blockBindings": true,
+    "forOf": true,
+    "generators": true,
+    "jsx": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralDuplicateProperties": false,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "octalLiterals": true,
+    "regexYFlag": true,
+    "regexYFlag": true
   },
 
   "rules": {
@@ -156,6 +172,9 @@
     "space-unary-ops": [ 2, { "words": true, "nonwords": false } ],
     "spaced-line-comment": [ 2, "always" ],
     "wrap-regex": 0,
+
+    "generator-star": [ 2, "start" ],
+    "no-var": 0,
 
     "max-depth": [ 0, 4 ],
     "max-len": [ 0, 80, 4 ],

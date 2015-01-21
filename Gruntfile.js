@@ -1,6 +1,6 @@
 'use strict';
 
-var tourism = require('./lib/tourism');
+const tourism = require('./lib/tourism');
 
 module.exports = tourism({
   analyse: {
