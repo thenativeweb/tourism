@@ -174,7 +174,7 @@
     "wrap-regex": 0,
 
     "generator-star": [ 2, "start" ],
-    "no-var": 0,
+    "no-var": 1,
 
     "max-depth": [ 0, 4 ],
     "max-len": [ 0, 80, 4 ],
