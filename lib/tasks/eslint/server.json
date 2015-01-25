@@ -7,8 +7,12 @@
     "amd": false,
     "browser": false,
     "jasmine": false,
+    "jquery": false,
     "mocha": true,
-    "node": true
+    "node": true,
+    "phantomjs": false,
+    "prototypejs": false,
+    "shelljs": false
   },
 
   "globals": {
@@ -18,6 +22,7 @@
   "ecmaFeatures": {
     "binaryLiterals": true,
     "blockBindings": true,
+    "defaultParams": true,
     "forOf": true,
     "generators": true,
     "jsx": true,
@@ -27,7 +32,9 @@
     "objectLiteralShorthandProperties": true,
     "octalLiterals": true,
     "regexYFlag": true,
-    "regexYFlag": true
+    "regexYFlag": true,
+    "templateStrings": true,
+    "unicodeCodePointEscapes": true
   },
 
   "rules": {
@@ -106,9 +113,7 @@
     "wrap-iife": [ 2, "inside" ],
     "yoda": [ 2, "never" ],
 
-    "global-strict": [ 2, "always" ],
-    "no-extra-strict": 2,
-    "strict": 2,
+    "strict": [ 2, "global" ],
 
     "no-catch-shadow": 2,
     "no-delete-var": 2,
