@@ -16,6 +16,7 @@
   "dependencies": {
     "eslint-plugin-nodeca": "1.0.3",
     "grunt-checkbranch": "0.3.1",
+    "grunt-checkpending": "0.1.2",
     "grunt-contrib-watch": "0.6.1",
     "grunt-dev-update": "1.0.2",
     "grunt-eslint": "5.1.0",
