@@ -1,5 +1,6 @@
 {
   "plugins": [
+    "mocha",
     "nodeca"
   ],
 
@@ -187,6 +188,7 @@
     "no-bitwise": 0,
     "no-plusplus": 0,
 
+    "mocha/no-exclusive-tests": 2,
     "nodeca/indent": [ 2, "spaces", 2 ]
   }
 }
