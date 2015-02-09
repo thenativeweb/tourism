@@ -47,7 +47,7 @@ The command stores the results in the `coverage` directory. Additionally, it ope
 
 Then, you need to open the file `index.html` from the directory `coverage` manually.
 
-Additionally, tourism adds the file `cobertura-coverage.xml` to the `coverage` directory, so that you are able to integrate calculating the test coverage into your automated build,
+Additionally, tourism adds the file `cobertura-coverage.xml` to the `coverage` directory, so that you are able to integrate calculating the test coverage into your automated build.
 
 ### Running the default task partially
 
