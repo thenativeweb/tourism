@@ -5,7 +5,7 @@
 
   "env": {
     "amd": false,
-    "browser": true,
+    "browser": false,
     "jasmine": false,
     "jquery": false,
     "meteor": false,
@@ -17,28 +17,27 @@
   },
 
   "globals": {
-    "angular": false,
     "is": false
   },
 
   "ecmaFeatures": {
-    "arrowFunctions": true,
-    "binaryLiterals": true,
-    "blockBindings": true,
-    "defaultParams": true,
-    "forOf": true,
-    "generators": true,
+    "arrowFunctions": false,
+    "binaryLiterals": false,
+    "blockBindings": false,
+    "defaultParams": false,
+    "forOf": false,
+    "generators": false,
     "globalReturn": false,
-    "jsx": true,
-    "objectLiteralComputedProperties": true,
+    "jsx": false,
+    "objectLiteralComputedProperties": false,
     "objectLiteralDuplicateProperties": false,
-    "objectLiteralShorthandMethods": true,
-    "objectLiteralShorthandProperties": true,
-    "octalLiterals": true,
-    "regexYFlag": true,
-    "regexYFlag": true,
-    "templateStrings": true,
-    "unicodeCodePointEscapes": true
+    "objectLiteralShorthandMethods": false,
+    "objectLiteralShorthandProperties": false,
+    "octalLiterals": false,
+    "regexYFlag": false,
+    "regexYFlag": false,
+    "templateStrings": false,
+    "unicodeCodePointEscapes": false
   },
 
   "rules": {
@@ -183,7 +182,7 @@
     "wrap-regex": 0,
 
     "generator-star": [ 2, "start" ],
-    "no-var": 1,
+    "no-var": 0,
 
     "max-depth": [ 0, 4 ],
     "max-len": [ 0, 80, 4 ],

@@ -35,6 +35,23 @@ To use tourism with the default tasks, run the following command.
 
 The `default` task will run the static code analysis, validate whitespace, execute unit tests and check for outdated packages.
 
+### Changing the language version for code analysis
+
+By default, code analysis uses rules that target the latest version of EcmaScript. If you want to change this, you can provide an additional `options` object and change the language version. Currently supported values are `es5`, `es6`, `es2015` (which is equivalent to `es6`) and `latest` (which is the default).
+
+```javascript
+module.exports = tourism({
+  analyse: {
+    server: [ '**/*.js', '!node_modules/**/*.js' ],
+    options: {
+      server: {
+        language: 'es5'
+      }
+    }
+  }
+});
+```
+
 ### Calculating test coverage
 
 To calculate the test coverage run the following command.
