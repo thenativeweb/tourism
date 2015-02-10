@@ -20,7 +20,7 @@
     "grunt-checkpending": "0.1.2",
     "grunt-contrib-watch": "0.6.1",
     "grunt-depcheck": "0.1.0",
-    "grunt-dev-update": "1.0.2",
+    "grunt-dev-update": "1.1.0",
     "grunt-eslint": "6.0.0",
     "grunt-gitnobehind": "0.0.1",
     "grunt-mocha-cli": "1.12.0",
