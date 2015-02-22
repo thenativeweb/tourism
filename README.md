@@ -66,23 +66,9 @@ Then, you need to open the file `index.html` from the directory `coverage` manua
 
 Additionally, tourism adds the file `cobertura-coverage.xml` to the `coverage` directory, so that you are able to integrate calculating the test coverage into your automated build.
 
-### Running the default task partially
-
-If you only want to run the default task partially, there are a number of commands you may use:
-
-    $ grunt analyse
-    $ grunt test
-    $ grunt outdated
-
-### Using watch mode
-
-To use the watch mode, run the following command.
-
-    $ grunt watch
-
 ### Verifying licenses
 
-If you want to verify whether the licenses of your dependencies are compatible to what you require, use the `licenses` task. To make it work add the list of allowed licenses to your configuration.
+If you want to verify that the licenses of your dependencies are compatible to your requirements, add the list of allowed licenses to your configuration.
 
 ```javascript
 module.exports = tourism({
@@ -90,9 +76,20 @@ module.exports = tourism({
 });
 ```
 
-Then, run the following command to get a list of all modules not compatible to the specified licenses.
+### Running the default task partially
 
+If you only want to run the default task partially, there are a number of commands you may use:
+
+    $ grunt analyse
+    $ grunt test
+    $ grunt outdated
     $ grunt licenses
+
+### Using watch mode
+
+To use the watch mode, run the following command.
+
+    $ grunt watch
 
 ### Creating a release
 
