@@ -21,7 +21,7 @@
     "grunt-contrib-watch": "0.6.1",
     "grunt-depcheck": "0.1.0",
     "grunt-dev-update": "1.1.0",
-    "grunt-eslint": "6.0.0",
+    "grunt-eslint": "7.0.0",
     "grunt-gitnobehind": "0.0.3",
     "grunt-license": "0.1.5",
     "grunt-licensechecker": "0.1.3",
