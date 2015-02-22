@@ -80,6 +80,20 @@ To use the watch mode, run the following command.
 
     $ grunt watch
 
+### Verifying licenses
+
+If you want to verify whether the licenses of your dependencies are compatible to what you require, use the `licenses` task. To make it work add the list of allowed licenses to your configuration.
+
+```javascript
+module.exports = tourism({
+  licenses: [ 'MIT', 'BSD' ]
+});
+```
+
+Then, run the following command to get a list of all modules not compatible to the specified licenses.
+
+    $ grunt licenses
+
 ### Creating a release
 
 To create a new release, run the following command.
