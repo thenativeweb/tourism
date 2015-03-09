@@ -17,8 +17,7 @@
   },
 
   "globals": {
-    "angular": false,
-    "is": false
+    "angular": false
   },
 
   "ecmaFeatures": {
