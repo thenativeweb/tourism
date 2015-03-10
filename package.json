@@ -41,5 +41,9 @@
     "type": "git",
     "url": "git://github.com/thenativeweb/tourism.git"
   },
+  "keywords": [
+    "build",
+    "grunt"
+  ],
   "license": "MIT"
 }

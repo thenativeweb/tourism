@@ -2,6 +2,8 @@
 
 tourism is a convenience wrapper for Grunt.
 
+[![Circle CI](https://circleci.com/gh/thenativeweb/tourism.svg?style=svg)](https://circleci.com/gh/thenativeweb/tourism)
+
 ## Installation
 
     $ npm install tourism
