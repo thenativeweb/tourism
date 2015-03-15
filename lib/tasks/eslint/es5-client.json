@@ -56,6 +56,7 @@
     "no-debugger": 2,
     "no-dupe-args": 2,
     "no-dupe-keys": 2,
+    "no-duplicate-case": 2,
     "no-empty": 2,
     "no-empty-class": 2,
     "no-ex-assign": 2,
@@ -190,7 +191,7 @@
     "spaced-line-comment": [ 2, "always" ],
     "wrap-regex": 0,
 
-    "generator-star": [ 2, "middle" ],
+    "generator-star-spacing": [ 2, "both" ],
     "no-var": 0,
 
     "max-depth": [ 0, 4 ],
