@@ -12,12 +12,14 @@
       "email": "matthias.wagler@thenativeweb.io"
     }
   ],
+  "bin": "bin/tourism.js",
   "main": "lib/tourism.js",
   "dependencies": {
     "eslint": "0.17.0",
     "eslint-plugin-mocha": "0.2.2",
     "grunt-checkbranch": "0.3.1",
     "grunt-checkpending": "0.1.2",
+    "grunt-cli": "0.1.13",
     "grunt-contrib-watch": "0.6.1",
     "grunt-depcheck": "0.1.0",
     "grunt-dev-update": "1.1.0",
@@ -29,9 +31,10 @@
     "grunt-mocha-istanbul": "2.3.1",
     "grunt-release": "0.11.0",
     "grunt-shell": "1.1.2",
-    "istanbul": "0.3.7",
+    "istanbul": "0.3.8",
     "lodash": "3.5.0",
-    "mocha": "2.2.1"
+    "mocha": "2.2.1",
+    "update-notifier": "0.3.1"
   },
   "devDependencies": {
     "assertthat": "0.5.3",
