@@ -4,13 +4,7 @@ tourism is a convenience wrapper for Grunt.
 
 ## Installation
 
-### As Node.js module
-
     $ npm install tourism
-
-### As CLI
-
-    $ npm install -g tourism
 
 *NOTE: You only need to add tourism and `grunt` itself as dependencies to the `package.json` file. You do not have to add any plugins, tourism contains everything it needs to run internally.*
 
@@ -37,7 +31,7 @@ module.exports = tourism({
 
 To use tourism with the default tasks, run the following command.
 
-    $ tourism
+    $ grunt
 
 The `default` task will run the static code analysis, validate whitespace, execute unit tests and check for outdated packages.
 
@@ -62,11 +56,11 @@ module.exports = tourism({
 
 To calculate the test coverage run the following command.
 
-    $ tourism report
+    $ grunt report
 
 The command stores the results in the `coverage` directory. Additionally, it opens a graphical overview within your web browser. If you only want to calculate the results without actually showing them, run the following command alternatively.
 
-    $ tourism coverage
+    $ grunt coverage
 
 Then, you need to open the file `index.html` from the directory `coverage` manually.
 
@@ -86,31 +80,31 @@ module.exports = tourism({
 
 If you only want to run the default task partially, there are a number of commands you may use:
 
-    $ tourism analyse
-    $ tourism test
-    $ tourism outdated
-    $ tourism licenses
+    $ grunt analyse
+    $ grunt test
+    $ grunt outdated
+    $ grunt licenses
 
 ### Using watch mode
 
 To use the watch mode, run the following command.
 
-    $ tourism watch
+    $ grunt watch
 
 ### Creating a release
 
 To create a new release, run the following command.
 
-    $ tourism publish
+    $ grunt publish
 
 This will upgrade the version number in the `package.json` file, create a Git tag, create a `.zip` file containing the release, commit and finally push everything to the appropriate GitHub repository.
 
 If you want to create a minor respectively a major release, run one of the following commands instead.
 
-    $ tourism publish:minor
-    $ tourism publish:major
+    $ grunt publish:minor
+    $ grunt publish:major
 
-If, for whatever reason, you need to skip code analysis and test execution before publishing, use `tourism release` instead of `tourism publish`.
+If, for whatever reason, you need to skip code analysis and test execution before publishing, use `grunt release` instead of `grunt publish`.
 
 ### Using shell tasks
 
@@ -142,12 +136,12 @@ module.exports = tourism({
 
 Unless you overwrite them by your own version, tourism comes with a number of built-in shell commands. To start your Node.js application using `node app.js` run the following command.
 
-    $ tourism start
+    $ grunt start
 
 To update your dependencies you can use the `update` task. If you do not specify a module to update, all modules will be updated. Otherwise, only the specified one will be updated.
 
-    $ tourism update
-    $ tourism update:lodash
+    $ grunt update
+    $ grunt update:lodash
 
 Additionally, there are two commands that get registered depending on whether other commands have been registered.
 
