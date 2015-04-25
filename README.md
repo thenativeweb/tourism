@@ -8,11 +8,11 @@ tourism is a convenience wrapper for Grunt.
 
     $ npm install tourism
 
-*NOTE: You only need to add tourism and `grunt` itself as dependencies to the `package.json` file. You do not have to add any plugins, tourism contains everything it needs to run internally.*
-
 ### As CLI
 
     $ npm install -g tourism
+
+*NOTE: You only need to add tourism and `grunt` itself as dependencies to the `package.json` file. You do not have to add any plugins, tourism contains everything it needs to run internally.*
 
 ## Quick Start
 
