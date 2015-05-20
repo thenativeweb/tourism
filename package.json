@@ -14,7 +14,7 @@
   ],
   "main": "lib/tourism.js",
   "dependencies": {
-    "eslint": "0.21.0",
+    "eslint": "0.21.2",
     "eslint-plugin-mocha": "0.2.2",
     "grunt-checkbranch": "1.0.1",
     "grunt-checkpending": "1.0.0",
@@ -30,8 +30,8 @@
     "grunt-release": "0.12.0",
     "grunt-shell": "1.1.2",
     "istanbul": "0.3.14",
-    "lodash": "3.8.0",
-    "mocha": "2.2.4"
+    "lodash": "3.9.1",
+    "mocha": "2.2.5"
   },
   "devDependencies": {
     "assertthat": "0.6.0",
