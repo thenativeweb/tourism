@@ -14,7 +14,7 @@
   ],
   "main": "lib/tourism.js",
   "dependencies": {
-    "eslint": "0.24.0",
+    "eslint": "0.24.1",
     "eslint-config-es": "0.3.2",
     "eslint-plugin-mocha": "0.4.0",
     "grunt-checkbranch": "1.0.2",
